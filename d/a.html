@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ณัฐสุภา โยธากุล(บลู)</title>
+</head>
+
+<body>
+<h1>ณัฐสุภา โยธากุล (บลู) </h1>
+<form medthod="post"action=""enctype="multipart/form-data">
+คำนำหน้าชื่อ
+<input type="radio" name="title" value="นาย" >นาย
+<input type="radio" name="title" value="นาง">นาง
+<input type="radio" name="title" value="นางสาว"checked>นางสาว<br>
+
+ชื่อ-สกุล<input type="text" name="fullname"required autofocus> * <br>
+อายุ<input type="number" name="age" min="1" max="100" required> ปี * <br>
+สาขาวิชา <br>
+<select name="major">
+    <option value="การบัญชี">การบัญชี</option>
+    <option value="การตลาด">การตลาด</option>
+    <option value="การบัญชี">การบัญชี</option>
+    <option value="การบัญชี">การบัญชี</option>
+    <option value="คอมพิวเตอร์ธุรกิจ">คอมพิวเตอร์ธุรกิจ</option>
+	 <option value="ธุรกิจดิจิทัลและระบบสาระสนเทศ">ธุรกิจดิจิทัลและระบบสาระสนเทศ</option>
+	</select>
+<br>
+สี<input type="color" name="color"> <br>
+อีเมล<input type="email" name="email"> <br>
+
+วันเดือนปีเกิด<input type="date" name="birthday"><br>
+
+อาหารที่ชอบ
+<input type="checkbox" name="food[]" value="ส้มตำ">ส้มตำ<br>
+<input type="checkbox" name="food[]" value="ไก่น้ำปลา">ไก่น้ำปลา<br>
+<input type="checkbox" name="food[]" value="แตงโม">แตงโม<br>
+<input type="checkbox" name="food[]" value="สเต็กไก่">สเต็กไก่<br>
+<input type="checkbox" name="food[]" value="มาม่าต้มโคล้ง">มาม่าต้มโคลง<br>
+<input type="checkbox" name="food[]" value="คั่วกลิ้ง">คั่วกลิ้ง<br>
+
+รูปภาพ
+<input type="file" name="picture" > <br>
+
+
+<!--<input type ="submit" name ="Submit" value ="ลงทะเบียน" >-->
+<button type ="submit" name ="Submit" >ลงทะเบียน</button>
+<button type ="reset">Reset</button>
+<button type="Button" onClick="window.print();">สั่งพิมพ์</button>
+<button type="Button" onMouseover="window.location='http://www.msu.ac.th';">มมส</button>
+
+</form>
+
+
+
+
+
+</body>
+</html>
